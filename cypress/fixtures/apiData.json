@@ -1,0 +1,1090 @@
+{
+  "baseUrl": "https://sm-kyc-sync-quality.scoreme.in/kyc/external",
+  "headers": {
+    
+    "clientId": "d7f55264480818d929afc7c192014ce2",
+    "clientSecret": "91dea4ee01aad452c94ce4b2ca653f848750a7a75d07a97260671f4ffb5d544d"
+    
+  },
+  "testCases": {
+    "testDataAadhaar" : 
+    {
+      "apiName": "Aadhaar Verifier",
+      "endpoint": "/aadhaarVerifier",
+      "requestData": {
+        "aadhaarNumber": "695277717060",
+        "applicationId": "Automation_testing"
+    }
+    },
+    "testDataUdyam" :
+    {
+      "apiName": "Udyam Registration",
+      "endpoint": "/udyamRegistration",
+      "requestData": {
+        "registrationnumber": "udyam-gj-05-0041245",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataPan" : 
+    {
+      "apiName": "PAN Details Info",
+      "endpoint": "/panDetailInfo",
+      "requestData": {
+        "pan": "BDDPJ5343N",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataPanDataFetch" :
+    {
+      "apiName": "PAN Data Fetch",
+      "endpoint": "/panDataFetch",
+      "requestData": {
+        "pan": "BDDPJ5343N",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataPassport" :
+    {
+      "apiName": "Passport",
+      "endpoint": "/passport",
+      "requestData": {
+        "fileNumber" : "JP01C4054154419",
+        "dateOfBirth" : "22-jan-1999",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataVoterCardVerification" :
+    {
+      "apiName": "Voter Card Verification",
+      "endpoint": "/voterCard",
+      "requestData": {
+        "epicNumber": "chm1765833",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetch" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of West Bengal",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "SP03071N2020000003",
+        "state": "WB",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetchDL" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of Delhi",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "2014001086",
+        "state": "DL",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetchTL" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of Telangana",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "SER/HYD/ALO/03/12599/2016",
+        "state": "TL",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetchJH" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of Jharkhand",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "SEA2035700911204",
+        "state": "JH",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetchRJ" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of Rajasthan",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "B26/2016/0208470",
+        "state": "RJ",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatashopAndEstablishmentDataFetchKR" :
+    {
+      "apiName": "Shop And Establishment Data Fetch of Karnataka",
+      "endpoint": "/shopAndEstablishmentDataFetch",
+      "requestData": {
+        "certificateNumber": "6/106/CE/1947/2011",
+        "establishmentName": "M/s SMART PROFORCE PRIVATE LIMITED",
+        "state": "KR",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatavehicleRegistrationDataFetch" :
+    {
+      "apiName": "Vehicle Registration Data Fetch",
+      "endpoint": "/vehicleRegistrationDataFetch",
+      "requestData": {
+        "rc_regn_no": "UP60AQ8562",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatabankAccountVerification" :
+    {
+      "apiName": "Bank Account Verification",
+      "endpoint": "/bankAccountVerification",
+      "requestData": {
+        "accountNumber": "34676818265",
+        "ifsc": "SBIN0003267",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatautilityElectricityCheck" :
+    {
+      "apiName": "Utility Electricity Check",
+      "endpoint": "/utilityElectricityCheck",
+      "requestData": {
+        "consumerNo": "11220079497",
+        "electricityProvider": "NBPDCL",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataudyogAadhaarVerification" :
+    {
+      "apiName": "Udyog Aadhaar Verification",
+      "endpoint": "/udyogAadhaarVerification",
+      "requestData": {
+        "udyogAadhaarNumber": "BR22D0008145",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatacaMembership" :
+    {
+      "apiName": "CA Membership Verification",
+      "endpoint": "/caMembership",
+      "requestData": {
+        "membershipNumber": "503579",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataimportExport" :
+    {
+      "apiName": "Import Export Verification",
+      "endpoint": "/importExport",
+      "requestData": {
+        "firmName": "YAS",
+        "iecNumber": "0311073701",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatasebiEntitySearch" :
+    {
+      "apiName": "SEBI Entity Verification",
+      "endpoint": "/sebiEntitySearch",
+      "requestData": {
+        "entityName": "O. J. FINANCIAL SERVICES (IFSC) PRIVATE LIMITED",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatafda" :
+    {
+      "apiName": "FDA License Verification",
+      "endpoint": "/fda",
+      "requestData": {
+        "licenseNumber": "76726",
+        "stateCode": "MH",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataEpfoSearch" :
+    {
+      "apiName": "EPF Enterprise Verification",
+      "endpoint": "/epfo/enterprise/search",
+      "requestData": {
+        "establishmentName": "ScoreMe",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataicsiFCS" :
+    {
+      "apiName": "ICSI Membership Verification FCS",
+      "endpoint": "/icsi",
+      "requestData": {
+        "membershipNumber": "5437",
+        "memberType": "FCS",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataicsiACS" :
+    {
+      "apiName": "ICSI Membership Verification ACS",
+      "endpoint": "/icsi",
+      "requestData": {
+        "membershipNumber": "1",
+        "memberType": "ACS",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatafssai" :
+    {
+      "apiName": "FSSAI License Verification",
+      "endpoint": "/fssai",
+      "requestData": {
+        "licenceNumber": "10014012000268",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataIcmai" :
+    {
+      "apiName": "ICMAI Membership Verification",
+      "endpoint": "/icmai",
+      "requestData": {
+        "membershipNumber": "11790",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataPanAadharLink" :
+    {
+      "apiName": "Pan Aadhaar link",
+      "endpoint": "/panAadharLink",
+      "requestData": {
+        "aadhaarNumber": "695277717060",
+        "pan": "BRFPN9124H",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataLeiSearch" :
+    {
+      "apiName": "LEI Search",
+      "endpoint": "/leiSearch",
+      "requestData": {
+        "entityName": "BDCINFO PRIVATE LIMITED",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataLeiDetailsLeiNumber" :
+    {
+      "apiName": "LEI Details Lei Number Search",
+      "endpoint": "/leiDetails",
+      "requestData": {
+        "leiNumber": "335800STTZXAKV3BXR81",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataLeiDetailsEntityName" :
+    {
+      "apiName": "LEI Details Entity Name Search",
+      "endpoint": "/leiDetails",
+      "requestData": {
+        "entityName": "TATA COMMUNICATIONS TRANSFORMATION SERVICES LIMITED",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataesicEmployerDetails" :
+    {
+      "apiName": "ESIC Employer Details",
+      "endpoint": "/esicEmployerDetails",
+      "requestData": {
+        "esicCode": "81310098820010911",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatagetAllEmployeeNames" :
+    {
+      "apiName": "EPF verifier Get All Employee Names",
+      "endpoint": "/epfverifier/getAllEmployeeNames",
+      "requestData": {
+        "establishmentName": "FASTCOLLAB SYSTEMS PRIVATE LIMITED",
+        "establishmentId": "APHYD1505091000",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataEpfverifierEnterprise" :
+    {
+      "apiName": "EPF verifier Enterprise",
+      "endpoint": "/epfverifier/enterprise",
+      "requestData": {
+        "establishmentName": "FASTCOLLAB SYSTEMS PRIVATE LIMITED",
+        "establishmentId": "APHYD1505091000",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataBullionRates" :
+    {
+      "apiName": "Bullion Rates",
+      "endpoint": "/bullionRates",
+      "requestData": {
+        "commodityType": "GOLD",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataDrivingLicenceDataFetch" :
+    {
+      "apiName": "Driving License Details",
+      "endpoint": "/drivingLicenceDataFetch",
+      "requestData": {
+        "drivingLicenceNumber": "RJ1920160033462",
+        "dateOfBirth": "10-Feb-1998",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataAMLEntity" :
+    {
+      "apiName": "Anti Money Laundering detail- Entity",
+      "endpoint": "/negativelistcheck",
+      "requestData": {
+        "matchScoreThreshold": "0.10",
+        "name": "Lalu yadav",
+        "type" : "entity",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataAMLIndividual" :
+    {
+      "apiName": "Anti Money Laundering detail- Individual",
+      "endpoint": "/negativelistcheck",
+      "requestData": {
+        "matchScoreThreshold": "0.10",
+        "name": "Lalu yadav",
+        "type" : "Individual",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataPANV2" :
+    {
+      "apiName": "PAN Verification V2",
+      "endpoint": "/V2/panDataFetch",
+      "requestData": {
+        "name": "RESURGENT INDIA LIMITED",
+        "dateOfBirth": "12-dec-2005",
+        "pan" : "BRFPN9124H",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataMCI" :
+    {
+      "apiName": "MCI Membership Verification",
+      "endpoint": "/mci",
+      "requestData": {
+        "registrationNumber": "10118",
+        "stateMedicalCouncil": "Bombay Medical Council",
+        "yearOfInfo" : "1960",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatafetchVehicleDetails" :
+    {
+      "apiName": "Fetch Vehicle details",
+      "endpoint": "/fetchVehicleDetails",
+      "requestData": {
+        "vehicleManufacturerName":"Mercedes-Benz",
+        "vehicleModel":"S-Class",
+        "vehicleVariant":"S-Class S450 4Matic",
+        "registrationCity": "New Delhi",
+        "registrationState":"Delhi",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDatafetchCarDetails" :
+    {
+      "apiName": "Fetch all car details list",
+      "endpoint": "/fetchCarDetails",
+      "requestData": {}
+    },
+    "testDatafetchStateCityNames" :
+    {
+      "apiName": "All city and state name list",
+      "endpoint": "/fetchStateCityNames",
+      "requestData": {}
+    },
+    "testDataesicEmployeeDetails" :
+    {
+      "apiName": "ESIC Employee Details",
+      "endpoint": "/esicEmployeeDetails",
+      "requestData": {
+        "username": "6932366505",
+        "password" : "8433156712Xyz!",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataesicEmployerSearch" :
+    {
+      "apiName": "ESIC Employer Search",
+      "endpoint": "/esicEmployerSearch",
+      "requestData": {
+        "state": "Madhya Pradesh",
+        "district" : "Bhopal",
+        "employerName" : "tata",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataAadhaarOtp": {
+      "apiName": "Aadhaar OTP Verification",
+      "endpoint": "/aadhaarOtp",
+      "requestData": {
+        "aadhaar_number": "695277717060",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataEpfoPassbookOtp": {
+      "apiName": "EPFO Passbook Details",
+      "endpoint": "/epfoPassbookOtp",
+      "requestData": {
+        "uanNumber": "101788500569",
+        "password": "Dinesh@1999",        
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataEpfoRetailOtp": {
+      "apiName": "EPFO Retail Data Fetch",
+      "endpoint": "/epfoRetailOtp",
+      "requestData": {
+        "uanNumber": "101788500569",
+        "password": "Dinesh@1999",        
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataUtilityPhoneGenerateOtp": {
+      "apiName": "Utility - Phone Number Details",
+      "endpoint": "/utilityPhoneGenerateOtp",
+      "requestData": {
+        "mobileNumber": "9146463320",
+        "countryCode": "91",        
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataUdinOtp": {
+      "apiName": "UDIN OTP Verification",
+      "endpoint": "/udinotp",
+      "requestData": {
+        "mobileNumber": "9146463320",
+        "email": "dinesh.navghane@scoreme.in",        
+        "udin": "21220735AAAAAE5664",        
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataUdyamRegistrationCertificate": {
+      "apiName": "Udyam Registration Certificate",
+      "endpoint": "/udyamRegistration/certificate",
+      "requestData": {
+        "registrationnumber": "UDYAM-KL-01-0031099",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "testDataUdyamOtp": {
+      "apiName": "Udyam OTP Verification",
+      "endpoint": "/udyamotp",
+      "requestData": {
+        "mobileNumber": "8800155466",
+        "registrationnumber": "UDYAM-HR-05-0018797",        
+        "otpConsent": "mobile",        
+        "applicationId": "Automation_testing"
+      }
+    },
+    "form_16": {
+      "apiName": "Form-16-verification",
+      "endpoint": "/form-16-Verification",
+      "requestData": {
+       "panNumber": "DXPPS2552J",
+       "tanNumber": "MUMR10629D",
+       "certificateNumber": "SUWVEGA",
+       "financialYear": "2020-21",
+       "amount": "22633",
+       "applicationId": "Automation_testing"
+      }
+    } ,
+    "mgnregaCardDetail": {
+      "apiName": "Mgnrega Card Details",
+      "endpoint": "/mgnregaCardDetail",
+      "requestData": {
+      "mgnregaCardNo": "AN-01-001-005-001/1004",
+      "applicationId": "Automation_testing"
+      }
+    } ,
+    "panToFatherName": {
+      "apiName": "Pan to father name",
+      "endpoint": "/panToFatherName",
+      "requestData": {
+       "pan": "BDDPJ5343N",
+       "applicationId": "Automation_testing"
+      }
+    },
+    "panToUdyamInfo": {
+      "apiName": "Pan to udyam Info",
+      "endpoint": "/panToUdyamInfo",
+      "requestData": {
+       "pan": "AAYCS1423Q",
+       "applicationId": "Automation_testing"
+      }
+    },
+    "pngDetails": {
+      "apiName": "png Details",
+      "endpoint": "/utilityPngDetails",
+      "requestData": {
+      "customerNo": "PD03GWL2269",
+      "pngProvider": "AGL",
+      "applicationId": "Automation_testing"
+      
+      }
+    } ,
+    "panToMaskedAadhaar": {
+      "apiName": "pan To Masked Aadhaar",
+      "endpoint": "/panToMaskedAadhaar",
+      "requestData": {
+        "pan": "ACWPG0042Q",
+        "applicationId":"Automation_testing"
+        }
+    },
+    "panBasicInfo": {
+      "apiName": "PAN basic info",
+      "endpoint": "/panBasicInfo",
+      "requestData": {
+        "pan": "DDKPA2593E",
+        "applicationId":"Automation_testing"
+        }
+    },
+    "ifscCodeVerification": {
+      "apiName": "ifsc Code Verification",
+      "endpoint": "/ifscCodeVerification",
+      "requestData": {
+        "ifscCode":"SBIN0000387",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "getPinCodeDetails": {
+      "apiName": "Get pin code details",
+      "endpoint": "/getPinCodeDetails",
+      "requestData": {
+        "pinCode":"831012",
+        "applicationId": "Automation_testing"
+    }
+    },
+    "documentUploadRequest_Aadhaar": {
+      "apiName": "Aadhaar document upload",
+      "endpoint": "/documentuploadrequest",
+      "requestData": {
+        "documentType":"aadhaar",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "documentUploadRequest_drivingLicence": {
+      "apiName": "Driveing Licence document upload request",
+      "endpoint": "/documentuploadrequest",
+      "requestData": {
+        "documentType":"drivingLicence",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "documentUploadRequest_Pan": {
+      "apiName": "Pan document upload",
+      "endpoint": "/documentuploadrequest",
+      "requestData": {
+        "documentType":"pan",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "documentUploadRequest_Passport": {
+      "apiName": "Passport document upload",
+      "endpoint": "/documentuploadrequest",
+      "requestData": {
+        "documentType":"passport",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "documentUploadRequest_VoterID": {
+      "apiName": "VoterID document upload",
+      "endpoint": "/documentuploadrequest",
+      "requestData": {
+        "documentType":"voterId",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "visaDetailsVerification": {
+      "apiName": "visa Details Verification",
+      "endpoint": "/visaDetailsVerification",
+      "requestData": {
+          "indianMission": "CHINA-BEIJING",
+          "visaApplicationId": "CHNB00213622",
+          "dateOfBirth": "12-Sep-1984",
+          "passportNumber": "PE2191849",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "visaBasicInformation": {
+      "apiName": "visa Basic Information",
+      "endpoint": "/visaBasicInformation",
+      "requestData": {
+          "indianMission": "INDONESIA-JAKARTA",
+          "visaApplicationId": "IDNJV0234A18",
+          "dateOfBirth": "14-Jan-1994",
+          "passportNumber": "B6132655",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "panAdvanceInformation": {
+      "apiName": "pan advance informaton",
+      "endpoint": "/panAdvanceInformation",
+      "requestData": {
+        
+          "pan": "DKIPA9434F",
+          "applicationId": "Automation_testing"
+      
+      }
+    },
+    "employeeCompanyVerification": {
+      "apiName": "employee company verification",
+      "endpoint": "/employeeCompanyVerification",
+      "requestData": {
+        
+         "email": "sanjay.giri@scoreme.in",
+         "mobileNumber": "8300000000",
+        "applicationId": "Automation_testing"
+      
+      }
+    },
+    "panToCin": {
+      "apiName": "pan to cin",
+      "endpoint": "/panToCin",
+      "requestData": {
+         "pan": "AABCP2274M",
+         "applicationId": "Automation_testing"
+      }
+    },
+    "tdsReturnVerification": {
+      "apiName": "tds return verification",
+      "endpoint": "/tdsReturnVerification",
+      "requestData": {
+        "pan": "AADCH6128C",
+        "tan": "RTKS25747B",
+        "financialYear": "2023-24",
+        "quarter":"Q4",
+        "typeOfReturn":"nonSalary",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "pinCodeVerification": {
+      "apiName": "pin code verification",
+      "endpoint": "/pinCodeVerification",
+      "requestData": {
+        "pinCode":"831012",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "utilityDthDetails": {
+      "apiName": "utility dth details",
+      "endpoint": "/utilityDthDetails",
+      "requestData": {
+        "customerNo": "105528624",
+        "dthProvider": "BHARAT",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "utilityBroadbandVerification": {
+      "apiName": "utility broadband verification",
+      "endpoint": "/utilityBroadbandVerification",
+      "requestData": {
+         "customerNo": "1344449032",
+         "broadbandProvider": "HATHWAY_BB",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "domainVerification": {
+      "apiName": "domain verification",
+      "endpoint": "/domainVerification",
+      "requestData": {
+          "email":"sanjay.giri@scoreme.in",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "emailVerification": {
+      "apiName": "email verification",
+      "endpoint": "/emailVerification",
+      "requestData": {
+          "email":"sanju.reso.@gmail.com",
+          "name":"sanjay giri", 
+          "applicationId": "Automation_testing"
+      }
+    },
+    "E_ChallanVerification": {
+      "apiName": "e-Challan Verification",
+      "endpoint": "/e-ChallanVerification",
+      "requestData": {
+        "rcNumber":"UP55M7064",
+        "chassisNumber":"ME11CK01AC2033778",
+        "engineNumber":"1CK1033789",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "employmentVerification": {
+      "apiName": "employment verification",
+      "endpoint": "/employmentVerification",
+      "requestData": {
+         "mobileNumber":"9416294532",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "panToDin": {
+      "apiName": "pan to din",
+      "endpoint": "/panToDin",
+      "requestData": {
+         "pan": "ADNPG4165E",
+         "applicationId": "Automation_testing"
+      }
+    },
+    "phoneBasicInformation": {
+      "apiName": "phone basic information",
+      "endpoint": "/phoneBasicInformation",
+      "requestData": {
+          "phoneNumber":"7887062652",
+           "countryCode":"91",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "phoneToUanVerification": {
+      "apiName": "phone to uan verification",
+      "endpoint": "/phoneToUanVerification",
+      "requestData": {
+         "phoneNumber":"9416294532",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "phoneToDlVerification": {
+      "apiName": "phone to dl verification",
+      "endpoint": "/phoneToDlVerification",
+      "requestData": {
+         "phoneNumber":"9416294532",
+          "applicationId": "Automation_testing"
+      }
+    },
+    "phoneToRc": {
+      "apiName": "phone to rc",
+      "endpoint": "/phoneToRc",
+      "requestData": {
+         "phoneNumber":"9416294532",
+          "applicationId": "Automation_testing"
+      }
+    } ,
+    "reverseRc": {
+      "apiName": "reverse rc",
+      "endpoint": "/reverseRc",
+      "requestData": {
+        "chassisNumber":"MA1YU2HHUF6K12744",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "tanVerification": {
+      "apiName": "tan verification",
+      "endpoint": "/tanVerification",
+      "requestData": {
+        "tan":"MUMR10629D",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "upiIdBasicInformation": {
+      "apiName": "upi id basic information",
+      "endpoint": "/upiIdBasicInformation",
+      "requestData": {
+        "upiId":"7887062652@axl",
+        "name":"Giri",
+        "applicationId": "Automation_testing"
+      }
+    },
+    "bankAccountVerificationPennyless": {
+      "apiName": "Bank Account Verification Pennyless",
+      "endpoint": "/bankAccountVerificationPennyless",
+      "requestData": {
+       "accountNumber": "34676818265",
+       "ifsc": "SBIN0003267",
+       "applicationId": "Automation_testing"
+      }
+    },
+    "phoneToPanVerification": {
+      "apiName": "Phone to pan verification",
+      "endpoint": "/phoneToPanVerification",
+      "requestData": {
+       "phoneNumber": "9876543210",
+       "applicationId": "Automation_testing"
+      }
+    },
+    "uploadImageMatchPercentage": {
+      "apiName": "Upload image match percentage",
+      "endpoint": "/uploadImageMatchPercentage",
+      "requestData": {
+      
+      }
+    },
+    "socialAttributeVerification": {
+      "apiName": "Social attribute verification",
+      "endpoint": "/socialAttributeVerification",
+      "requestData": {
+      "phoneNumber":"9876543210",
+      "applicationId": "Automation_testing"
+      }
+    },
+    "waterUtilityDelhiJalBoard": {
+      "apiName": "Delhi jal board",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "0472931000",
+        "waterProvider": "djb",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityHaryanaUrbanDevelopmentAuthority": {
+      "apiName": "HARYANA URBAN DEVELOPMENT AUTHORITY",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "19223",
+        "waterProvider": "HUDA",
+        "city":"fARIDABAD_I",
+        "applicationId":"Automation_testing"
+      }
+    },
+    "waterUtilityHyderabadMetropolitanWaterSupplyAndSewerageBoard": {
+      "apiName": "HYDERABAD METROPOLITAN WATER SUPPLY AND SEWERAGE BOARD",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "616998056",
+        "waterProvider": "HMWSSB",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityKeralaWaterAuthority": {
+      "apiName": "KERALA WATER AUTHORITY",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "VAZ/2310/D",
+        "waterProvider": "KWA",
+       "consumerId":"2114114420",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityBrihanMumbaiMunicipalCorporation": {
+      "apiName": "BRIHANMUMBAI MUNICIPAL CORPORATION",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "KER0491002",
+        "waterProvider": "BMC",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityUttarakhandJalSansthan": {
+      "apiName": "UTTARAKHAND JAL SANSTHAN",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "0268379",
+        "waterProvider": "UJS",
+        "city":"rajpur",
+        "applicationId":"Automation_testing"
+        
+    }
+    },
+    "waterUtilityChennaiMetropolitanWaterSupplyAndSewarageBoard": {
+      "apiName": "CHENNAI METROPOLITAN WATER SUPPLY AND SEWERAGE BOARD",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "03038",
+        "waterProvider": "CMWSSB",
+        "zoneNo":"14",
+        "wardNo":"185"
+    }
+    },
+    "waterUtilityJammuKashmirWaterBilling": {
+      "apiName": "JAMMU KASHMIR WATER BILLING",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "010104018",
+        "waterProvider": "JKPHED",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityPimpriChinchwadMunicipalCorporation": {
+      "apiName": "PIMPRI CHINCHWAD MUNICIPAL CORPORATION",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "69488",
+        "waterProvider": "PCMC",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityNoidaJal": {
+      "apiName": "NOIDA JAL",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "03000546",
+        "waterProvider": "NJAL",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityNewDelhiMunicipalCouncil": {
+      "apiName": "NEW DELHI MUNICIPAL COUNCIL",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "1962189",
+        "waterProvider": "NDMC",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "waterUtilityTalegaonDabhadeNagarParishad": {
+      "apiName": "TALEGAON DABHADE NAGAR PARISHAD",
+      "endpoint": "/utilityWaterDetails",
+      "requestData": {
+        "customerNo": "W70002469",
+        "waterProvider": "TDNP",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "utilityElectricityDetails": {
+      "apiName": "Utility electric details",
+      "endpoint": "/utilityElectricityCheck",
+      "requestData": {
+       "consumerNo":"1122300017788",
+       "electricityProvider":"APCPDCL",
+        "applicationId":"Automation_testing"
+      }
+    },
+    "utilityElectricityDetailsCityWise": {
+      "apiName": "Utility electric details citywise",
+      "endpoint": "/utilityElectricityCheck",
+      "requestData": {
+        "consumerNo": "1846721000",
+         "electricityProvider": "UPPCL",
+         "city":"varanasi",
+         "applicationId":"Automation_testing"
+      }
+    },
+    "nameMatchEntity": {
+      "apiName": "Name match entity",
+      "endpoint": "/nameMatch",
+      "requestData": {
+        "name1": "Scoreme Solution P.Ltd",
+        "name2": "Scoreme Solution Private Limited",
+        "type": "entity",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "nameMatchIndividual": {
+      "apiName": "Name match individual",
+      "endpoint": "/nameMatch",
+      "requestData": {
+        "name1": "Scoreme Solution P.Ltd",
+        "name2": "Scoreme Solution Private Limited",
+        "type": "Individual",
+    "applicationId":"Automation_testing"
+    }
+    },
+    "utilityLpgDetailsBharatGas": {
+      "apiName": "Utility lpg details bharat gas",
+      "endpoint": "/utilityLpgDetails",
+      "requestData": {
+        "lpgId": "10000000027087128",
+        "lpgProvider": "BHARAT_GAS",
+        "svNumber":"4060227067",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "utilityLpgDetailsIndaneGas": {
+      "apiName": "Utility lpg details indane gas",
+      "endpoint": "/utilityLpgDetails",
+      "requestData": {
+        "lpgId": "7000000021745012",
+        "lpgProvider": "INDANE_GAS",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "verifyMobileNumber": {
+      "apiName": "Verify mobile number",
+      "endpoint": "/verifyMobileNumber",
+      "requestData": {
+        "phoneNumber": "6890876543",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "rationCardVerification": {
+      "apiName": "ration card verification",
+      "endpoint": "/rationCardVerification",
+      "requestData": {
+        "rationCardNumber": "044000000002",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "udyamAssistVerification": {
+      "apiName": "Udyam Assist Verification",
+      "endpoint": "/udyamAssistVerification",
+      "requestData": {
+        "registrationnumber": "UDYAm-i-OD-07-7626153",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "panToUANVerification": {
+      "apiName": "pan To UAN Verification",
+      "endpoint": "/panToUANVerification",
+      "requestData": {
+        "pan": "ADNPG4165E",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "initiateLiveliness": {
+      "apiName": "initiate liveliness",
+      "endpoint": "/initiateLiveliness",
+      "requestData": {
+        "fullName": "Sanjay",
+        "aadhaarNumber": "695277717060",
+        "redirectUrl": "https://sm-quality.scoreme.in/#/layout/ekyc/liveliness-succes",
+        "geoLocation": "28.4141155,77.0878054",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "ipAddressVerification": {
+      "apiName": "IP address verification",
+      "endpoint": "/ipAddressVerification",
+      "requestData": {
+        "ipAddress": "237.251.252.189",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "deathCertificateVerification": {
+      "apiName": "Death certification verification",
+      "endpoint": "/deathCertificateVerification",
+      "requestData": {
+        "certificateNumber": "MCDOLIR-0221-0811152168",
+         "providerName": "MCD",
+        "applicationId":"Automation_testing"
+    }
+    },
+    "VerifyEmail": {
+      "apiName": "Verify Email",
+      "endpoint": "/verifyEmail",
+      "requestData": {
+        "email": "sanjay.giri@scoreme.in",
+        "applicationId": "Automation_testing"
+    }
+    },
+    "fetchCarDealerDetails": {
+      "apiName": "Fetch car dealer details",
+      "endpoint": "/fetchCarDealerDetails",
+      "requestData": {
+       "city": "Agra",
+       "brandName": "Tata",
+       "applicationId": "Automation_testing"
+    }
+    },
+    "fetchTwoWheelerVehicleDetails": {
+      "apiName": "fetch Two Wheeler Vehicle Details",
+      "endpoint": "/fetchTwoWheelerVehicleDetails",
+      "requestData": {
+        "registrationCity": "Agra",
+        "vehicleManufacturerName": "Bajaj",
+        "vehicleModel": "Pulsar NS200",
+        "vehicleVariant": "Pulsar NS200 STD",
+        "applicationId": "Automation_testing"
+    }
+    }                               
+  }
+}
+
+
+
